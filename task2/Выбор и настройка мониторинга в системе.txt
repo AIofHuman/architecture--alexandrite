@@ -24,6 +24,12 @@
 environment
 queue_name
 
+- Number of dead-letter-exchange letters in RabbitMQ
+Назначение: мониторинг количества недоставленных сообщений
+Ярлыки:
+environment
+queue_name
+
 - RPS для всех API (shop, CRM, MES)
 Назначение: отслеживание нагрузки на все API
 Ярлыки:
